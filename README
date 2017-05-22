@@ -1,3 +1,10 @@
+Fork of original django-select2, in order to support 4.x branch with Django
+1.10
+
+Useful as a temporary measure before upgrading to 5.x branch
+
+-----
+
 Django-Select2
 ==============
 
