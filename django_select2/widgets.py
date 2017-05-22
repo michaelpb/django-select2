@@ -249,7 +249,7 @@ class Select2Widget(Select2Mixin, forms.Select):
             # as in the case of Model based Light fields.
             choices = list(choices)
             choices.append(('', '', ))  # Adding an empty choice
-        return super(Select2Widget, self).render_options(choices, option_value=None, selected_choices=[])
+        return super(Select2Widget, self).render_options(choices, option_value, selected_choices)
 
 
 class Select2MultipleWidget(Select2Mixin, forms.SelectMultiple):
